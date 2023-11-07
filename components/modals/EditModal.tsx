@@ -6,7 +6,7 @@ import React, { useCallback, useEffect, useState } from "react";
 import { toast } from "react-hot-toast";
 import Modal from "../Modal";
 import Input from "../Input";
-import ImageUpload from "../imageUpload";
+import ImageUpload from "../ImageUpload";
 
 const EditModal = () => {
   const { data: currentUser } = useCurrentUser();
