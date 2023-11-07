@@ -24,7 +24,14 @@ const Header: React.FC<HeaderProps> = ({ label, showBackArrow }) => {
             className=" cursor-pointer hover:opacity-70 transition"
           />
         )}
-        <h1 className=" text-white text-xl font-semibold"> {label}</h1>
+        <h1 className=" text-white text-xl font-semibold">
+          {" "}
+          {label}{" "}
+          <p className=" text-neutral-500 text-sm">
+            Not the real Twitter site! This website is created for educational
+            purpose only!
+          </p>
+        </h1>
       </div>
     </div>
   );
